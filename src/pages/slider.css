@@ -1,0 +1,40 @@
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+    position: relative; /* Required for button positioning */
+  }
+  
+  .carousel-track {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .carousel-card {
+    flex: 0 0 50%; /* Adjust based on desired card width */
+    margin: 0 10px; /* Adjust spacing between cards */
+    text-align: center; /* Align card content (optional) */
+  }
+  
+  .carousel-card.active {
+    opacity: 1;
+  }
+  
+  .carousel-card:not(.active) {
+    opacity: 0.5;
+    transform: scale(0.9); /* Optional visual cue for inactive cards */
+  }
+  
+  .carousel-button {
+    position: absolute;
+    top: 50%; /* Center buttons vertically */
+    transform: translateY(-50%); /* Adjust based on button size */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px; /* Adjust button padding */
+    color: white;  /* Adjust button text color */
+  }
+  
+  .carousel-button:hover {
+    opacity: 0.8; /* Add hover effect (optional) */
+  }  
