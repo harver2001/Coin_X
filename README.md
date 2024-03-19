@@ -1,6 +1,4 @@
-## harsh_s_application1
-
-Generated with ❤️ from [DhiWise](https://www.dhiwise.com)
+## COIN_X ReactJS Application
 
 ## Description
 
